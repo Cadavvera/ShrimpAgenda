@@ -1,0 +1,43 @@
+/* Flexbox */
+.flex-parent {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    margin: 10px;
+    gap: 10px;
+}
+
+/* Boxes Style */
+.box {
+    background-color: #F3DFBF;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+
+    width: 100%;
+}
+
+/* Tank Image */
+#tank {
+    background-image: url(../images/shrimp_tank.png);
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 700px;
+    width: 700px;
+}
+
+
+/* Shrimp Selection Buttons */
+.shrimp_button {
+    height: 10%;
+    width: 5%;
+
+    transition: transform 0.3s ease;
+}
+
+.shrimp_button:hover {
+    transform: translateY(-10px) rotate(15deg);
+}

@@ -1,0 +1,31 @@
+/* Contact Page Styling Here */
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+input, textarea, select {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0 16px 0;
+}
+
+button {
+    background-color: #EB8A90;
+    padding: 10px;
+    color: white;
+    font-size: 120%;
+    transition: background-color, 0.5s;
+}
+
+button:hover {
+    background-color: #e94c56;
+}
+
+form {
+    flex-basis: 50%;
+}

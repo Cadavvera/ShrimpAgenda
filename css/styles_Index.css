@@ -1,0 +1,66 @@
+/* Flexbox */
+.flex-parent {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 400%;
+
+    margin: 10px;
+    gap: 10px;
+}
+
+/* Boxes Style */
+.box {
+    background-color: #F3DFBF;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+
+    width: 80%;
+
+    text-align: left;
+}
+
+/* Box Texts */
+.text {
+    font-size: 150%;
+    padding: 10px;
+    text-align: left
+}
+
+.subheader {
+    font-family: "Silkscreen";
+    font-size: 200%;
+}
+
+/* Tank Photo */
+.tank {
+    height: 40%;
+    width: 40%;
+    object-fit: contain;
+    float: right;
+}
+
+/* Parameters Style */
+.specs {
+    font-size: 150%;
+
+    padding: 20px;
+    background-color: #EB8A90;
+    border: 2px solid white;
+    filter: drop-shadow(5px 5px 1px #07004D);
+    text-decoration: none;
+
+    display: inline-block;
+    margin: 10px;
+    line-height: 70px;
+    border-radius: 10px 10px 10px 10px;
+    
+    width: 20%;
+
+    transition: background-color 0.5s;
+}
+
+.specs:hover {
+    background-color: #e94c56;
+}
